@@ -1,6 +1,8 @@
 import java.util.Arrays;
 class MergeSorting
 {
+
+// merge sorting code
 	public static void SplitSorting(int[] a)
 	{
 		if(a.length==1)return;
@@ -53,7 +55,6 @@ class MergeSorting
 			c[k]=b[j];
 			j++;
 			k++;
-			
 		}
 	}
 }
